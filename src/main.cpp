@@ -55,7 +55,7 @@ JsonDocument  doc;
 // The defaults will show up in the portal
 char mqttserver[40] = DEFAULT_MQTTSERVER;
 char mqttport[6]    = "1883";
-char mqtttopic[32]  = "pvdata/#";
+char mqtttopic[32]  = "SmartMeter/Power/";
 char address[4]     = "1";
 
 // Declare the meters and serial lines
